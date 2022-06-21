@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "229705045854",
+    "project_id": "edu-track-b7b7e",
+    "storage_bucket": "edu-track-b7b7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229705045854:android:b267cac8144a39f71461cf",
+        "android_client_info": {
+          "package_name": "com.example.edutrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229705045854-u9ah15pud6ucpd7ps6sr1ohctogv9c3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1cFmDtALPMppLUvDZPQ96qAQ52mThyp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229705045854-u9ah15pud6ucpd7ps6sr1ohctogv9c3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229705045854:android:9321c0aabaa6ae931461cf",
+        "android_client_info": {
+          "package_name": "com.example.mad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229705045854-u9ah15pud6ucpd7ps6sr1ohctogv9c3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1cFmDtALPMppLUvDZPQ96qAQ52mThyp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229705045854-u9ah15pud6ucpd7ps6sr1ohctogv9c3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
