@@ -9,11 +9,24 @@
     tools:context=".MainActivity">
 
 
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="197dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="107dp"
+        android:src="@drawable/applogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="524dp"
         android:fontFamily="sans-serif-black"
         android:text="Edu Track"
         android:textAlignment="center"

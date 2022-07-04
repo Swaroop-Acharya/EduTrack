@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SaveMarks">
+    tools:context=".SaveNotes">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/savemark_rv"
+        android:id="@+id/notes_rv"
         android:layout_width="418dp"
         android:layout_height="732dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fBtn1"
+        android:id="@+id/floataddNoteBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
@@ -28,4 +28,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.958"
         app:srcCompat="@drawable/addlogo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

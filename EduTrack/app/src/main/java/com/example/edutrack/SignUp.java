@@ -6,7 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
@@ -21,7 +24,8 @@ public class SignUp extends AppCompatActivity {
     TextInputLayout regName, regEmail, regPhone, regPassword;
     Button regBtn, regToLoginBtn;
     FirebaseAuth fAuth;
-
+    TextView welcome,welcome_slogan;
+    Animation topAim;
 
     FirebaseDatabase rootNode;
     DatabaseReference reference;
@@ -30,13 +34,20 @@ public class SignUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-
+        getSupportActionBar().hide();
         regName = findViewById(R.id.reg_name);
         regEmail = findViewById(R.id.reg_email);
         regPassword = findViewById(R.id.reg_password);
         regPhone = findViewById(R.id.reg_phone);
         regBtn = findViewById(R.id.reg_btn);
         regToLoginBtn = findViewById(R.id.reg_login_btn);
+
+        topAim= AnimationUtils.loadAnimation(this,R.anim.top_animation);
+        welcome=findViewById(R.id.welcome);
+        welcome_slogan=findViewById(R.id.welcome_slogan);
+
+        welcome.setAnimation(topAim);
+        welcome_slogan.setAnimation(topAim);
 
 
         regToLoginBtn.setOnClickListener(new View.OnClickListener() {

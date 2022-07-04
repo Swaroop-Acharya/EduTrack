@@ -43,7 +43,7 @@ public class AddMarks extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),SaveMarks.class));
-                finish();
+//                finish();
             }
         });
     }
@@ -58,7 +58,7 @@ public class AddMarks extends AppCompatActivity {
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void unused) {
-                        Toast.makeText(AddMarks.this, "Mark saved succesfully", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AddMarks.this, "Note saved successfully", Toast.LENGTH_SHORT).show();
 
                     }
                 }).addOnFailureListener(new OnFailureListener() {

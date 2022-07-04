@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="Save Marks"
+        android:text="Keep Note"
         android:textAlignment="center"
         android:layout_marginTop="10dp"
         android:textSize="50dp"/>
@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="Save marks on the go"
+        android:text="Add and manage your note on the go"
         android:layout_marginTop="10dp"
         android:textAlignment="center"
         android:textSize="20dp"/>
@@ -32,6 +32,10 @@
         android:orientation="vertical"
         android:layout_marginTop="80dp"
         android:layout_marginBottom="20dp">
+
+
+
+
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -52,7 +56,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/edu_class_mark"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:hint="Marks">
+            android:hint="Description">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

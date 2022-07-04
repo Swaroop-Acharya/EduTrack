@@ -29,8 +29,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/Marks"
             android:text="Marks"
-            android:textStyle="bold"
-            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textSize="10sp"
             android:layout_below="@+id/Title"
             android:textColor="@color/black"
             />

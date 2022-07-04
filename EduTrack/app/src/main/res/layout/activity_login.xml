@@ -7,37 +7,44 @@
     android:layout_height="match_parent"
     tools:context=".Login"
     android:orientation="vertical"
-
+    android:background="@drawable/gradient"
     android:padding="20dp">
 
 
     <TextView
+        android:textColor="#fff"
+        android:layout_marginTop="80sp"
         android:id="@+id/logo_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello there, Welcome Back"
+        android:text="Hello there,
+         Welcome Back"
         android:textSize="40sp"
-        android:fontFamily="serif-monospace"
+        android:fontFamily="sans-serif-black"
         android:layout_marginBottom="60dp"
         />
-    <TextView
-        android:id="@+id/slogan_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sign In to continue"
-        android:textSize="18sp"
-        android:fontFamily="sans-serif-medium"
-        android:layout_marginBottom="10dp"
-        />
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="20dp"
         android:orientation="vertical"
         >
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#fff"
+            android:id="@+id/slogan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Sign In to continue"
+            android:textSize="18sp"
 
+
+            />
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Go"
@@ -74,14 +81,16 @@
                 android:background="#000"
                 android:textColor="#fff"
                 android:layout_marginTop="5dp"
+
+
                 />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="New User? SIGN UP"
                 android:layout_gravity="right"
-               android:textColor="#fff"
+               android:textColor="#000"
                 android:elevation="0dp"
                 android:id="@+id/signup_screen"
                 android:background="@color/white"

@@ -1,41 +1,49 @@
 package com.example.edutrack;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
 
 public class Login extends AppCompatActivity {
     Button callSignUp , loginBtn;
     TextInputLayout email, password;
     FirebaseAuth firebaseAuth;
+    TextView logoname;
+    Animation topAim;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        firebaseAuth=firebaseAuth.getInstance();
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);
+//        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+          getSupportActionBar().hide();
 
-        callSignUp = findViewById(R.id.signup_screen);
+         firebaseAuth=firebaseAuth.getInstance();
+        topAim= AnimationUtils.loadAnimation(this,R.anim.top_animation);
+         logoname=findViewById(R.id.logo_name);
+
+         logoname.setAnimation(topAim);
+
+
+
+
+        callSignUp =(Button) findViewById(R.id.signup_screen);
 
 
         callSignUp.setOnClickListener(new View.OnClickListener() {
@@ -48,7 +56,7 @@ public class Login extends AppCompatActivity {
 
         email=findViewById(R.id.sig_email);
         password=findViewById(R.id.sig_password);
-        loginBtn=findViewById(R.id.goto_home);
+        loginBtn=(Button) findViewById(R.id.goto_home);
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -10,7 +10,7 @@ import android.widget.Button;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class UserHome extends AppCompatActivity {
-    Button logoutBtn,save_marks;
+    Button logoutBtn,save_marks, man_notes,calci;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +18,10 @@ public class UserHome extends AppCompatActivity {
 
         logoutBtn=findViewById(R.id.logoutBtn);
         save_marks=findViewById(R.id.save_marks);
+        man_notes=findViewById(R.id.man_notes);
+        calci=findViewById(R.id.calculators);
+
+
 
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +39,25 @@ public class UserHome extends AppCompatActivity {
                 finish();
             }
         });
+
+
+        man_notes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),UploadPdf.class));
+            }
+        });
+
+        calci.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),CalculatorActivity.class));
+            }
+        });
+
+
+
+
 
 
     }

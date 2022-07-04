@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Edu Track</string>
+    <string name="app_name">Calculator</string>
+    <string-array name="semester">
+        <item>Semester</item>
+        <item>Physics Cycle</item>
+        <item>Chemistry Cycle</item>
+        <item>sem3</item>
+        <item>sem4</item>
+        <item>sem5</item>
+        <item>sem6</item>
+        <item>sem7</item>
+        <item>sem8</item>
+    </string-array>
+    <string-array name="branch">
+        <item>Branch</item>
+        <item>CSE</item>
+        <item>ISE</item>
+        <item>ECE</item>
+        <item>CV</item>
+        <item>ME</item>
+    </string-array>
 </resources>

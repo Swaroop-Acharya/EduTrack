@@ -3,14 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/drawable/border.xml" value="0.1735" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/drawable/gradient.xml" value="0.1275" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.17" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/drawable/rounded.xml" value="0.17" />
         <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_add_marks.xml" value="0.264" />
-        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_add_notes.xml" value="0.2359375" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_calculator.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_cgpa.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_main.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_nrmlcal.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_retrieve_pdf.xml" value="0.25" />
         <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_save.xml" value="0.1" />
         <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_save_marks.xml" value="0.19972826086956522" />
-        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
-        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_user_home.xml" value="0.25" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_save_notes.xml" value="0.25" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_sgpa.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_todo_home.xml" value="0.25" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_upload_pdf.xml" value="0.2359375" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/activity_user_home.xml" value="0.2" />
         <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/marks_display_item.xml" value="0.16226415094339622" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/note_display_item.xml" value="0.25" />
+        <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/notes_display.xml" value="0.10697674418604651" />
         <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/layout/update_marks.xml" value="0.25" />
         <entry key="..\:/Users/swaro/AndroidStudioProjects/EduTrack/app/src/main/res/menu/search.xml" value="0.25" />
       </map>

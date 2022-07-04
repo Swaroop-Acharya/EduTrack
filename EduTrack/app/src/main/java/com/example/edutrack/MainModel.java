@@ -3,7 +3,9 @@ package com.example.edutrack;
 public class MainModel  {
         String Title, Mark;
 
+
     public  MainModel(){}
+
     public MainModel(String title, String mark) {
         Title = title;
         Mark = mark;

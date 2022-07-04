@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -18,7 +19,8 @@ import com.google.firebase.database.FirebaseDatabase;
 public class SaveMarks extends AppCompatActivity {
     RecyclerView recyclerView;
     MainAdapter mainAdapter;
-    FloatingActionButton floatingActionButton;
+    FloatingActionButton floatingActionButton3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,12 +39,12 @@ public class SaveMarks extends AppCompatActivity {
         recyclerView.setAdapter(mainAdapter);
 
 
-        floatingActionButton =findViewById(R.id.floatingActionButton);
-        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+        floatingActionButton3 =findViewById(R.id.fBtn1);
+        floatingActionButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),AddMarks.class));
-                finish();
+
             }
         });
 
