@@ -24,12 +24,10 @@ public class AddMarks extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_marks);
-
         edu_class =findViewById(R.id.edu_class);
         edu_mark=findViewById(R.id.edu_class_mark);
         saveBtn=findViewById(R.id.edu_class_save_mark);
         backBtn=findViewById(R.id.back_btn);
-
 
         saveBtn.setOnClickListener(new View.OnClickListener() {
             @Override

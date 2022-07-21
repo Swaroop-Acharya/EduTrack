@@ -16,7 +16,6 @@ import java.util.regex.Pattern;
 import java.util.ArrayList;
 
 public class Sgpa extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
-
     private Spinner spinner, SpnrBrnch;
     ArrayAdapter<CharSequence> adapter;
     String BRANCH,SEM,caseB0,caseS0;
@@ -46,19 +45,17 @@ public class Sgpa extends AppCompatActivity implements AdapterView.OnItemSelecte
     int m9;
 
     ArrayList<String> list =new ArrayList();
-
-
     EditText etm1,etm2,etm3,etm4,etm5,etm6,etm7,etm8,etm9;
     EditText sgpa,per;
     TextView tc1, tc2, tc3, tc4, tc5, tc6, tc7, tc8, tc9,tcsgpa,tcper;
     Button bcal,btnper;
     int j,k,flag=0,l;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sgpa);
         spinner = findViewById(R.id.SpinnerSem);
+        getSupportActionBar().hide();
         SpnrBrnch = findViewById(R.id.spinnerBranch);
 
 

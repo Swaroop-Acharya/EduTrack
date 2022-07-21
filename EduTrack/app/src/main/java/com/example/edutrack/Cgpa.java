@@ -20,6 +20,7 @@ public class Cgpa extends AppCompatActivity implements View.OnClickListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cgpa);
+        getSupportActionBar().hide();
         btnCal=(Button) findViewById(R.id.buttonCgpa);
         btnRst=(Button) findViewById(R.id.buttonRst);
         EtSem1=(EditText)findViewById(R.id.editTextSem1);
@@ -32,9 +33,6 @@ public class Cgpa extends AppCompatActivity implements View.OnClickListener{
         EtSem8=(EditText)findViewById(R.id.editTextSem8);
         EtCgpa=(EditText)findViewById(R.id.editTextCgpa);
         EtPer=(EditText)findViewById(R.id.editTextPer);
-
-
-
         btnRst.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

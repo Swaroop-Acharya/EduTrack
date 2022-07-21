@@ -29,23 +29,12 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-//        requestWindowFeature(Window.FEATURE_NO_TITLE);
-//        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-          getSupportActionBar().hide();
-
-         firebaseAuth=firebaseAuth.getInstance();
+        getSupportActionBar().hide();
+        firebaseAuth=firebaseAuth.getInstance();
         topAim= AnimationUtils.loadAnimation(this,R.anim.top_animation);
-         logoname=findViewById(R.id.logo_name);
-
-         logoname.setAnimation(topAim);
-
-
-
-
+        logoname=findViewById(R.id.logo_name);
+        logoname.setAnimation(topAim);
         callSignUp =(Button) findViewById(R.id.signup_screen);
-
-
         callSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -9,16 +9,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class CalculatorActivity extends AppCompatActivity {
     public Button Sbtn, Cbtn, Nbtn;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
-
+        getSupportActionBar().hide();
         Sbtn = (Button) findViewById(R.id.SgpaBtn);
         Cbtn = (Button) findViewById(R.id.CgpaBtn);
         Nbtn = (Button) findViewById(R.id.NrmlBtn);
-
         Sbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

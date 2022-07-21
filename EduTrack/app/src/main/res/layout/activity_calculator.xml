@@ -4,61 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_500"
+    android:background="@drawable/gradient"
     tools:context=".CalculatorActivity">
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
         android:text="CALCULATORS"
-        android:textColor="@android:color/holo_red_light"
-        android:textSize="40sp"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" />
+        app:layout_constraintVertical_bias="0.101" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/SgpaBtn"
-        android:layout_width="153dp"
-        android:layout_height="62dp"
+        android:layout_width="168dp"
+        android:layout_height="186dp"
         android:background="@color/teal_200"
-        android:text="SGPA Calculator"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/CgpaBtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.672" />
-
-    <Button
-        android:id="@+id/CgpaBtn"
-        android:layout_width="157dp"
-        android:layout_height="62dp"
-        android:background="@android:color/holo_green_light"
-        android:text="CGPA CALCULATOR"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/NrmlBtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.778" />
-
-    <Button
-        android:id="@+id/NrmlBtn"
-        android:layout_width="157dp"
-        android:layout_height="70dp"
-        android:background="@android:color/holo_orange_light"
-        android:text="NORMAL CALCULATOR"
+        android:text="SGPA"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832" />
+        app:layout_constraintVertical_bias="0.359" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/CgpaBtn"
+        android:layout_width="168dp"
+        android:layout_height="186dp"
+        android:background="@color/teal_200"
+        android:text="CGPA"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/SgpaBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/NrmlBtn"
+        android:layout_width="352dp"
+        android:layout_height="135dp"
+        android:background="@color/teal_200"
+        android:text="BASIC"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699" />
 </androidx.constraintlayout.widget.ConstraintLayout>

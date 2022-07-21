@@ -21,8 +21,6 @@ public class UserHome extends AppCompatActivity {
         man_notes=findViewById(R.id.man_notes);
         calci=findViewById(R.id.calculators);
 
-
-
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

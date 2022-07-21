@@ -34,16 +34,9 @@ public class RetrievePDF extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_retrieve_pdf);
-
         listView =findViewById(R.id.listView);
-
         uploadPDF=new ArrayList<>();
-
-
         retrievePDFFiles();
-
-
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

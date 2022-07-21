@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Calculator</string>
+    <string name="app_name">Edu Track</string>
     <string-array name="semester">
         <item>Semester</item>
         <item>Physics Cycle</item>
