@@ -10,7 +10,7 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Screenshots](#screenshots)
 ---
 
 
@@ -71,10 +71,19 @@ The app was created to address the common struggle of keeping academic materials
   
 ---
 
-## Screen Shots
+## Screenshots
 
 
-![Screenshot_2024-09-27-12-11-12-756_com example edutrack](https://github.com/user-attachments/assets/2b090444-1fd0-408a-b825-3b757750f5e5)
+
+
+
+<img src="https://github.com/user-attachments/assets/f5b80256-385c-48ac-8cab-ab38269b2214" alt="Screenshot 2" width="250"/>
+<img src="https://github.com/user-attachments/assets/c23944a9-d941-4b08-a2bc-45086f6700e4" alt="Screenshot 1" width="250"/>
+<br/>
+<img src="https://github.com/user-attachments/assets/12cb253d-7721-463c-aace-504e3bbaae8c" alt="Screenshot 2" width="250"/>
+<img src="https://github.com/user-attachments/assets/bf870804-ea1f-4a66-9bc5-622cd2a9a5f5" alt="Screenshot 4" width="250"/>
+
+
 
 
 ---
