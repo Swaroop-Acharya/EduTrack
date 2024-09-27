@@ -37,12 +37,10 @@ The app was created to address the common struggle of keeping academic materials
 ---
 
 ## Technologies Used
+<img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white" /> <img alt="Android Studio" src="https://img.shields.io/badge/Android%20Studio-%230A79B2.svg?&style=for-the-badge&logo=androidstudio&logoColor=white" /> <img alt="Firebase" src="https://img.shields.io/badge/Firebase-%23039BE0.svg?&style=for-the-badge&logo=firebase&logoColor=white" /> <img alt="XML" src="https://img.shields.io/badge/XML-%23E3E3E3.svg?&style=for-the-badge&logo=xml&logoColor=black" />
 
-- **Backend**: Java
-- **Frontend**: XML
-- **Database**: Realtime Firestore
+
 ---
-
 ## Installation
 
 1. Clone the repository:
