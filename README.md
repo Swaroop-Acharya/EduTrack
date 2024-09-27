@@ -47,24 +47,24 @@ The app was created to address the common struggle of keeping academic materials
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/projectname.git
+    git clone https://github.com/Swaroop-Acharya/EduTrack.git
     cd projectname
     ```
-### Open the project in Android Studio:
+2. Open the project in Android Studio:
 
-1. Open Android Studio and select **Open an existing project**.
-2. Navigate to the project directory (`projectname`) and select it.
+- Open Android Studio and select **Open an existing project**.
+- Navigate to the project directory (`projectname`) and select it.
 
-### Sync Gradle Files:
+3. Sync Gradle Files:
 
 - Once the project opens, Android Studio will automatically try to sync the Gradle files.
 - If it doesn’t, you can manually sync it by going to **File > Sync Project with Gradle Files**.
 - Make sure all dependencies are downloaded and resolved.
 
-### Build and Run the Application:
+4. Build and Run the Application:
 
-1. Click the **Run** button or use the shortcut (`Shift + F10`) in Android Studio.
-2. Select a connected device or emulator to install the app.
+- Click the **Run** button or use the shortcut (`Shift + F10`) in Android Studio.
+- Select a connected device or emulator to install the app.
 
 
 
