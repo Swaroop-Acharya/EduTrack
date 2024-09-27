@@ -71,46 +71,11 @@ The app was created to address the common struggle of keeping academic materials
   
 ---
 
-## Usage
+## Screen Shots
 
-Explain how to use the application:
 
-- Provide steps or commands for using the app.
-- Include screenshots if possible.
-- Mention any sample data or credentials needed for testing.
+![Screenshot_2024-09-27-12-11-12-756_com example edutrack](https://github.com/user-attachments/assets/2b090444-1fd0-408a-b825-3b757750f5e5)
 
----
-
-## API Documentation (Optional)
-
-If the project includes an API, document the available endpoints, methods, and example requests/responses here. Optionally, link to Swagger or Postman collections.
-
----
-
-## Testing
-
-1. **Unit Tests**: 
-    ```bash
-    mvn test
-    ```
-
-2. **Integration Tests** (if applicable):
-    - Add instructions on running integration tests.
-
----
-
-## Deployment
-
-Provide steps for deploying the project:
-
-- **Docker**:
-    ```bash
-    docker build -t projectname .
-    docker run -p 8080:8080 projectname
-    ```
-
-- **AWS** or other cloud service:
-    - Include deployment steps for cloud platforms.
 
 ---
 
