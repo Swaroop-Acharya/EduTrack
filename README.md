@@ -50,28 +50,25 @@ The app was created to address the common struggle of keeping academic materials
     git clone https://github.com/username/projectname.git
     cd projectname
     ```
+### Open the project in Android Studio:
 
-2. Install dependencies:
-    ```bash
-    # For backend (if using Java/Spring Boot)
-    mvn install
-    
-    # For frontend (if using Node.js)
-    npm install
-    ```
+1. Open Android Studio and select **Open an existing project**.
+2. Navigate to the project directory (`projectname`) and select it.
 
-3. Configure environment variables:
-   - Mention any required environment variables or configuration files, e.g., `.env`.
+### Sync Gradle Files:
 
-4. Run the application:
-    ```bash
-    # Backend
-    mvn spring-boot:run
-    
-    # Frontend
-    npm start
-    ```
+- Once the project opens, Android Studio will automatically try to sync the Gradle files.
+- If it doesn’t, you can manually sync it by going to **File > Sync Project with Gradle Files**.
+- Make sure all dependencies are downloaded and resolved.
 
+### Build and Run the Application:
+
+1. Click the **Run** button or use the shortcut (`Shift + F10`) in Android Studio.
+2. Select a connected device or emulator to install the app.
+
+
+
+  
 ---
 
 ## Usage
